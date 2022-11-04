@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header__logo{
+    height: 40px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131920;
+    padding: 5px 20px;
+}
+
+.header__searchbox{
+    height: 35px;
+    width: 350px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header__input__section{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header__search__icon{
+    padding: 10px;
+    background-color: orange;
+    /* border-radius: 0 5px 5px 0; */
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header__address{
+    color: white;
+    margin: 0 20px;
+}
+
+.header__signupbutton,
+.header__loginbutton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.header__carticon{
+    color: white;
+}
+
+.header__section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+.carousal__bootstrap{
+    max-height: 350px;
+    overflow: hidden;
+}
