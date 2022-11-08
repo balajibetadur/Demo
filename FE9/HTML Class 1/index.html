@@ -1,54 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="header" class="header">
-        <div class="header__section1">
-            <img class='header__logo' src="logo-t.png" alt="">
-            <p class="header__address">Banglore</p>
-            <div class="header__input__section">
-                <input class="header__searchbox" type="text" placeholder="search products">
-                <i class="fas fa-search header__search__icon"></i>
-            </div>
+      <div class="header__section1">
+        <img class="header__logo" src="logo-t.png" alt="" />
+        <p class="header__address">Banglore</p>
+        <div class="header__input__section">
+          <input
+            class="header__searchbox"
+            type="text"
+            placeholder="search products"
+          />
+          <i class="fas fa-search header__search__icon"></i>
         </div>
-        <div class="header__section2">
-            <button class="header__signupbutton button">SignUp</button>
-            <button class="header__loginbutton button">Login</button>
-            <i class="fas fa-shopping-cart header__carticon"></i>
-        </div>
+      </div>
+      <div class="header__section2">
+        <button class="header__signupbutton button">SignUp</button>
+        <button class="header__loginbutton button">Login</button>
+        <i class="fas fa-shopping-cart header__carticon"></i>
+      </div>
     </div>
     <div class="body">
-        <div id="carouselExampleControls" class="carousel slide carousal__bootstrap" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="image1.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="image2.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="image3.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide carousal__bootstrap"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image1.jpeg" class="d-block w-100" alt="..." />
           </div>
+          <div class="carousel-item">
+            <img src="image2.jpeg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image3.jpeg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="products">
+        <p class="products__header">Find your products</p>
+        <div class="product__list">
+          
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image1.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img src="image2.jpg" alt="" class="image" />
+            </div>
+            <div class="product__details">
+              <div class="product__price__rating">
+                <span class="product__price">$499</span>
+                <span class="product__rating">★ 4.9</span>
+              </div>
+              <span class="product__addtocart">Add to cart</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="info">
+        Conditions of Use & Sale Privacy Notice Interest-Based Ads © 1996-2022,
+        Amazon.com, Inc. or its affiliates
+      </span>
+      <span class="email">abcd@gmail.com</span>
+      <span class="mobile__number">+919863476344</span>
+      <span class="aboutus">About Us</span>
+      <a href="#header" class="back__to__top">Back to Top</a>
     </div>
     <!-- <div class="footer">
         <span class="info">
@@ -63,7 +266,15 @@
         <a href="#header" class="back__to__top">Back to Top</a>
 
     </div> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
