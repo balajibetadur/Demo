@@ -1,3 +1,9 @@
+:root {
+  --light: #1e90ff;
+  --dark: #000000;
+}
+
+
 body{
   margin: 0;
   padding: 0;

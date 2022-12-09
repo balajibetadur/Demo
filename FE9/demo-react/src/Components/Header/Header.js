@@ -6,8 +6,8 @@ function Header() {
   return (
     <div>
       <p>Header</p>
-      <NavLink to = '/login'>Login</NavLink>
-      <NavLink to = '/signup'>SignUp</NavLink>
+      <NavLink className = 'light' to = '/login'>Login</NavLink>
+      <NavLink className='dark' to = '/signup'>SignUp</NavLink>
       <p></p>
     </div>
   )

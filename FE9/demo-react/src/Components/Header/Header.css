@@ -1,5 +1,11 @@
+
+
 .active{
-    background-color: blueviolet;
+    background-color: var(--light);
     padding: 10px;
     border-radius: 5px;
+}
+
+.dark{
+    background-color: var(--dark);
 }
