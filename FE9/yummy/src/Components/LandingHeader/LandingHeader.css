@@ -1,0 +1,26 @@
+.landingheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: calc(100% - 200px);
+}
+    
+.landingheader__right__division{
+    display: flex;
+}
+
+.landingheader__right__option,
+.landingheader__left__option{
+    margin: 0;
+    color: white;
+    margin: 20px 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.landingheader__left__option{
+    font-size: 14px;
+}

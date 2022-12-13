@@ -1,0 +1,59 @@
+.landinghero{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.landinghero__title{
+    font-size: 90px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.landinghero__prompt{
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.landinghero__searchbar{
+    background-color: white;
+    padding: 17px 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landinghero__searchbar > input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.landinghero__searchbar__input__location{
+    width: 20%;
+}
+
+.landinghero__searchbar__input__restaurant{
+    width: 70%;
+}
+
+.landinghero__input__divider{
+    color: rgba(84, 83, 83, 0.502);
+    margin: 0 20px;
+}
+
+.landinghero__icon__location{
+    color: rgb(238, 14, 74);
+}
+
+.landinghero__icon__searchicon{
+    color: grey;
+}

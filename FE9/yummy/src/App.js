@@ -2,18 +2,19 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Restaurant from './Pages/Restaurant/Restaurant'
 import Checkout from './Pages/Checkout/Checkout'
+import Home from './Pages/Home/Home';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path = '/' />
+          <Route path = '/' element = {<Home/>}/>
           <Route path = '/restaurant' element = {<Restaurant/>}/>
           <Route path = '/checkout' element = {<Checkout/>}/>
         </Routes>
       </Router>
-      Hey There
     </div>
   );
 }

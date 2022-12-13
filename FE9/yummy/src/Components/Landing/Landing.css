@@ -1,0 +1,22 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing__image__division{
+    display: flex;
+    flex-direction: column;
+}
+.landing__image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: -999;
+    object-fit: cover ;
+    display: flex;
+}
