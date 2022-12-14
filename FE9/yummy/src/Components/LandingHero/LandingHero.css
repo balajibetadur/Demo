@@ -51,7 +51,7 @@
 }
 
 .landinghero__icon__location{
-    color: rgb(238, 14, 74);
+    color: var(--theme)
 }
 
 .landinghero__icon__searchicon{
